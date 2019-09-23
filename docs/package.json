@@ -1,25 +1,25 @@
 {
-  "name": "gitbook-publishable-template",
-  "version": "1.0.0",
-  "description": "A template for publishing a Gitboo",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rebeccapeltz/gitbook-publishable-template.git"
-  },
-  "author": "Becky Peltz",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rebeccapeltz/gitbook-publishable-template/issues"
-  },
-  "devDependencies": {
-    "child_process": "^1.0.2",
-    "del": "^3.0.0",
-    "gulp": "4.0.0",
-    "gulp-load-plugins": "^1.5.0"
-  },
-  "homepage": "https://github.com/rebeccapeltz/gitbook-publishable-tempalte#readme"
+    "name": "book-stack-view",
+    "version": "1.0.0",
+    "description": "A book with book stack view",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leanhdung278/book-stack-view.git"
+    },
+    "author": "Becky Peltz",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rebeccapeltz/gitbook-publishable-template/issues"
+    },
+    "devDependencies": {
+        "child_process": "^1.0.2",
+        "del": "^3.0.0",
+        "gulp": "4.0.0",
+        "gulp-load-plugins": "^1.5.0"
+    },
+    "homepage": "https://github.com/rebeccapeltz/gitbook-publishable-tempalte#readme"
 }
