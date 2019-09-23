@@ -8,6 +8,4 @@ All enums and classes are under ```cc``` module if not specified otherwise.
 
 **Modules**
 
-{@codepen: https://codepen.io/nickmoreton/pen/gbyygq}
-{@jsfiddle: http://jsfiddle.net/kizu/zfUyN/}
-
+[codepen](https://codepen.io/nickmoreton/pen/gbyygq)
