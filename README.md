@@ -1,16 +1,7 @@
-# Introduction
+#Installation
 
-## Index <a id="cocos-creator"></a>
-
-Cocos Creator v2.1
-
-Welcome to Cocos Creator JavaScript engine API reference. You can search anything in top left search filed.
-
-All enums and classes are under `cc` module if not specified otherwise.
-
-## Cocos Creator <a id="index"></a>
-
-| Name | Number |
-| :--- | :--- |
-| Book | 01 |
+* **Install the gulp command line utility**
+```
+npm install --global gulp-cli
+```
 
