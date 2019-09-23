@@ -5,7 +5,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             'icon': 'fa fa-facebook',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('http://www.facebook.com/sharer/sharer.php?s=100&p[url]='+encodeURIComponent(location.href));
+                window.open('http://www.facebook.com/sharer/sharer.php?s=100&p[url]=' + encodeURIComponent(location.href));
             }
         },
         'twitter': {
@@ -13,7 +13,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             'icon': 'fa fa-twitter',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('http://twitter.com/home?status='+encodeURIComponent(document.title+' '+location.href));
+                window.open('http://twitter.com/dung_maze');
             }
         },
         'google': {
@@ -21,7 +21,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             'icon': 'fa fa-google-plus',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('https://plus.google.com/share?url='+encodeURIComponent(location.href));
+                window.open('https://plus.google.com/share?url=' + encodeURIComponent(location.href));
             }
         },
         'weibo': {
@@ -29,7 +29,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             'icon': 'fa fa-weibo',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('http://service.weibo.com/share/share.php?content=utf-8&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title));
+                window.open('http://service.weibo.com/share/share.php?content=utf-8&url=' + encodeURIComponent(location.href) + '&title=' + encodeURIComponent(document.title));
             }
         },
         'instapaper': {
@@ -37,7 +37,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             'icon': 'fa fa-instapaper',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('http://www.instapaper.com/text?u='+encodeURIComponent(location.href));
+                window.open('http://www.instapaper.com/text?u=' + encodeURIComponent(location.href));
             }
         },
         'vk': {
@@ -45,7 +45,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             'icon': 'fa fa-vk',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('http://vkontakte.ru/share.php?url='+encodeURIComponent(location.href));
+                window.open('http://vkontakte.ru/share.php?url=' + encodeURIComponent(location.href));
             }
         }
     };
