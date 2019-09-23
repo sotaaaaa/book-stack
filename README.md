@@ -1,4 +1,4 @@
-# Index
+##Index <a id="cocos-creator"></a>
 
 Cocos Creator v2.1
 
