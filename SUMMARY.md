@@ -1,4 +1,4 @@
-# Table of contents
+# Summary
 
-* [Setup](README.md)
+* [Installation](README.md)
 
