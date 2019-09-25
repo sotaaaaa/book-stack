@@ -13,7 +13,9 @@ Ensure the above requirements are met before installing.
 
 1. Clone the release branch of the BookStack GitHub repository into a folder.
 
-    ```git clone https://github.com/leanhdung278/book-stack.git```
+    ```
+    git clone https://github.com/leanhdung278/book-stack.git
+    ```
 
 2. Download Gitbook Editor 1.1.0 [Here](https://github.com/GitbookIO/editor-legacy/releases)
 
