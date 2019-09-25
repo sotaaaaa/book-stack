@@ -3,7 +3,8 @@
 BookStack has the following requirements:
 
 * **Nodejs**
-* **gulpjs**
+* **Gulpjs**
+    * Run command ``npm install gulp-cli -g``
 * **Git Version Control**
     * (Not strictly required but helps manage updates)
 
