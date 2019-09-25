@@ -1,6 +1,7 @@
 # Summary
 
 * [Installation](README.md)
-* [SDKbox](chapter/README.md)
+* [SDKBOX](chapter/README.md)
    * [Admob](chapter/test.md)
+* [GIT](git/README.md)
 
