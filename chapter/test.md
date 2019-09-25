@@ -1,4 +1,4 @@
-# Admob
+# ADMOD
 
 AdMob brings together best-in-class technology in a single platform, so you can gain insights about your users, drive more in-app purchases, and maximize your ad revenue. No longer will you have to rely on a combination of tools or use precious development resources to build your own solution.
 
@@ -26,6 +26,8 @@ to get test ads on this device."
 ### iOS
 
 Updating ...
+
+### JSON config
 
 ```json
 {
