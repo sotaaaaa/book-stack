@@ -1,0 +1,395 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Admob · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    SDKbox
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="test.html">
+            
+                <a href="test.html">
+            
+                    
+                    Admob
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Admob</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="admob">Admob</h1>
+<p>AdMob brings together best-in-class technology in a single platform, so you can gain insights about your users, drive more in-app purchases, and maximize your ad revenue. No longer will you have to rely on a combination of tools or use precious development resources to build your own solution.</p>
+<h2 id="integration-sdkbox">Integration SDKBox</h2>
+<ol>
+<li>S&#x1EED; d&#x1EE5;ng Creator m&#x1EDF; project. M&#x1EDF; h&#x1ED9;p tho&#x1EA1;i Build t&#x1EEB; Menu bar -&gt; Project. Ch&#x1ECD;n iOS/Android Platform v&#xE0; ti&#x1EBF;n h&#xE0;nh Build.</li>
+<li>Sau khi Build xong ch&#x1ECD;n Extension -&gt; SDKbox -&gt; Lauch v&#xE0; ch&#x1ECD;n Admob &#x111;&#x1EC3; c&#xE0;i &#x111;&#x1EB7;t.</li>
+</ol>
+<h2 id="configuration-admob">Configuration AdMob</h2>
+<ol>
+<li>&#x110;&#x1B0;&#x1EDD;ng d&#x1EAB;n file <code>./build/jsb-link/res/sdkbox_config.json</code></li>
+<li>&#x110;i&#x1EC1;n <strong>AppID</strong> v&#xE0; c&#xE1;c <strong>ID</strong> qu&#x1EA3;ng c&#xE1;o.</li>
+<li><code>&quot;testdevice&quot;</code>: config c&#xE1;c <strong>TestID</strong> tr&#xE1;nh admod ban. N&#x1EBF;u ch&#x1B0;a c&#xF3; TestID th&#xEC; d&#xF9;ng c&#xE1;ch sau &#x111;&#x1EC3; l&#x1EA5;y.</li>
+</ol>
+<h3 id="android">Android</h3>
+<ul>
+<li>T&#x1EA3;i &#x1EE9;ng d&#x1EE5;ng c&#xF3; t&#xED;ch h&#x1EE3;p qu&#x1EA3;ng c&#xE1;o v&#xE0; &#x111;&#x1B0;a ra m&#x1ED9;t y&#xEA;u c&#x1EA7;u qu&#x1EA3;ng c&#xE1;o.</li>
+<li>Ki&#x1EC3;m tra  logcat t&#xEC;m th&#xF4;ng b&#xE1;o tr&#xF4;ng gi&#x1ED1;ng nh&#x1B0; sau:</li>
+</ul>
+<pre><code class="lang-javascript">I/Ads: Use AdRequest.Builder.addTestDevice(&quot;33BE2250B43518CCDA7DE426D04EE231&quot;)
+to get test ads on this device.&quot;
+</code></pre>
+<h3 id="ios">iOS</h3>
+<p>Updating ...</p>
+<pre><code class="lang-json">{
+    <span class="hljs-string">&quot;AdMob&quot;</span>: {
+        <span class="hljs-string">&quot;testdevice&quot;</span>: <span class="hljs-string">&quot;kGADSimulatorID,D8E988B99C17799A184F549CA6017EB8,33BE2250B43518CCDA7DE426D04EE231&quot;</span>,
+        <span class="hljs-string">&quot;test&quot;</span>: <span class="hljs-literal">true</span>,
+        <span class="hljs-string">&quot;appid&quot;</span>: <span class="hljs-string">&quot;ca-app-pub-7744786175205006~4620046991&quot;</span>,
+        <span class="hljs-string">&quot;ads&quot;</span>: {
+            <span class="hljs-string">&quot;rewarded&quot;</span>: {
+                <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;rewarded_video&quot;</span>,
+                <span class="hljs-string">&quot;id&quot;</span>: <span class="hljs-string">&quot;ca-app-pub-7744786175205006/7386397867&quot;</span>
+            },
+            <span class="hljs-string">&quot;top_banner&quot;</span>: {
+                <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;banner&quot;</span>,
+                <span class="hljs-string">&quot;id&quot;</span>: <span class="hljs-string">&quot;ca-app-pub-7744786175205006/8699479532&quot;</span>,
+                <span class="hljs-string">&quot;alignment&quot;</span>: <span class="hljs-string">&quot;top&quot;</span>
+            },
+            <span class="hljs-string">&quot;test_rewarded&quot;</span>: {
+                <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;rewarded_video&quot;</span>,
+                <span class="hljs-string">&quot;id&quot;</span>: <span class="hljs-string">&quot;ca-app-pub-3940256099942544/5224354917&quot;</span>
+            },
+            <span class="hljs-string">&quot;test_banner&quot;</span>: {
+                <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;banner&quot;</span>,
+                <span class="hljs-string">&quot;id&quot;</span>: <span class="hljs-string">&quot;ca-app-pub-3940256099942544/6300978111&quot;</span>
+            }
+        }
+    }
+}
+</code></pre>
+<h2 id="create-javascript-component">Create JavaScript Component</h2>
+<pre><code class="lang-typescript"><span class="hljs-keyword">const</span> { ccclass, property } = cc._decorator;
+
+@ccclass
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">class</span> Admob extends cc.Component {
+    onLoad() {
+        <span class="hljs-keyword">this</span>.init()
+    }
+
+    init() {
+        <span class="hljs-keyword">if</span> (cc.sys.isNative) {
+
+            <span class="hljs-comment">// G&#x1ECD;i init admob</span>
+            sdkbox.PluginAdMob.init()
+
+            <span class="hljs-comment">// Set c&#xE1;c callback event</span>
+            sdkbox.PluginAdMob.setListener({
+                adViewDidReceiveAd: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">name</span>) </span>{
+                    cc.log(<span class="hljs-string">&apos;IAP adViewDidReceiveAd&apos;</span>, name)
+                },
+                adViewDidFailToReceiveAdWithError: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">name, msg</span>) </span>{
+                    cc.log(<span class="hljs-string">&apos;IAP adViewDidFailToReceiveAdWithError&apos;</span>, name, msg)
+                },
+                adViewWillPresentScreen: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">name</span>) </span>{
+                    cc.log(<span class="hljs-string">&apos;IAP adViewWillPresentScreen&apos;</span>, name)
+                },
+                adViewDidDismissScreen: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">name</span>) </span>{
+                    cc.log(<span class="hljs-string">&apos;IAP adViewDidDismissScreen&apos;</span>, name)
+                },
+                adViewWillDismissScreen: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">name</span>) </span>{
+                    cc.log(<span class="hljs-string">&apos;IAP adViewWillDismissScreen&apos;</span>, name)
+                },
+                adViewWillLeaveApplication: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">name</span>) </span>{
+                    cc.log(<span class="hljs-string">&apos;IAP adViewWillLeaveApplication&apos;</span>, name)
+                },
+                reward(name, currency, amount) {
+                    cc.log(<span class="hljs-string">&apos;IAP reward&apos;</span>, name, currency, amount)
+
+                }
+            })
+
+            <span class="hljs-comment">// cache c&#xE1;c qu&#x1EA3;ng c&#xE1;o c&#x1EA7;n thi&#x1EBF;t</span>
+            <span class="hljs-comment">// t&#xEA;n c&#xE1;c g&#xF3;i qu&#x1EA3;ng c&#xE1;o nh&#x1B0; rewarded, top_banner, ... xem config b&#xEA;n d&#x1B0;&#x1EDB;i</span>
+            sdkbox.PluginAdMob.cache(<span class="hljs-string">&apos;rewarded&apos;</span>)
+            sdkbox.PluginAdMob.cache(<span class="hljs-string">&apos;top_banner&apos;</span>)
+
+            <span class="hljs-comment">// 2 qu&#x1EA3;ng c&#xE1;o test c&#x1EE7;a admob</span>
+            sdkbox.PluginAdMob.cache(<span class="hljs-string">&apos;test_banner&apos;</span>)
+            sdkbox.PluginAdMob.cache(<span class="hljs-string">&apos;test_rewarded&apos;</span>)
+        }
+    }
+
+    <span class="hljs-comment">// c&#xE1;c method d&#x1EC3; button g&#x1ECD;i t&#x1EDB;i</span>
+    watchVideo() {
+        <span class="hljs-keyword">if</span> (!sdkbox.PluginAdMob.isAvailable(<span class="hljs-string">&apos;rewarded&apos;</span>)) {
+            cc.log(<span class="hljs-string">&apos;Ads is not availble&apos;</span>)
+            sdkbox.PluginAdMob.cache(<span class="hljs-string">&apos;rewarded&apos;</span>)
+            <span class="hljs-keyword">return</span>
+        }
+        sdkbox.PluginAdMob.show(<span class="hljs-string">&apos;rewarded&apos;</span>)
+    }
+
+    showBanner() {
+        <span class="hljs-keyword">if</span> (!sdkbox.PluginAdMob.isAvailable(<span class="hljs-string">&apos;top_banner&apos;</span>)) {
+            cc.log(<span class="hljs-string">&apos;Ads is not availble&apos;</span>)
+            sdkbox.PluginAdMob.cache(<span class="hljs-string">&apos;top_banner&apos;</span>)
+            <span class="hljs-keyword">return</span>
+        }
+        sdkbox.PluginAdMob.show(<span class="hljs-string">&apos;top_banner&apos;</span>)
+    }
+
+    testVideo() {
+        <span class="hljs-keyword">if</span> (!sdkbox.PluginAdMob.isAvailable(<span class="hljs-string">&apos;test_rewarded&apos;</span>)) {
+            cc.log(<span class="hljs-string">&apos;Ads is not availble&apos;</span>)
+            sdkbox.PluginAdMob.cache(<span class="hljs-string">&apos;test_rewarded&apos;</span>)
+            <span class="hljs-keyword">return</span>
+        }
+        sdkbox.PluginAdMob.show(<span class="hljs-string">&apos;test_rewarded&apos;</span>)
+    }
+
+    testBanner() {
+        <span class="hljs-keyword">if</span> (!sdkbox.PluginAdMob.isAvailable(<span class="hljs-string">&apos;test_banner&apos;</span>)) {
+            cc.log(<span class="hljs-string">&apos;Ads is not availble&apos;</span>)
+            sdkbox.PluginAdMob.cache(<span class="hljs-string">&apos;test_banner&apos;</span>)
+            <span class="hljs-keyword">return</span>
+        }
+        sdkbox.PluginAdMob.show(<span class="hljs-string">&apos;test_banner&apos;</span>)
+    }
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev navigation-unique" aria-label="Previous page: SDKbox">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Admob","level":"1.2.1","depth":2,"previous":{"title":"SDKbox","level":"1.2","depth":1,"path":"chapter/README.md","ref":"chapter/README.md","articles":[{"title":"Admob","level":"1.2.1","depth":2,"path":"chapter/test.md","ref":"chapter/test.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter/test.md","mtime":"2019-09-25T04:48:52.715Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-25T04:49:03.332Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
